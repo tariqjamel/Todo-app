@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity(), TaskAdapter.ItemClickListener {
         }
 
         fibAdd.setOnClickListener {
-            val intent = Intent(this, ActivityCreate::class.java)
+            val intent = Intent(this, CreateActivity::class.java)
             startActivity(intent)
             finish()
         }

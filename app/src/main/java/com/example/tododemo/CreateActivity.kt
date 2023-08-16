@@ -28,7 +28,7 @@ import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Date
 
-class ActivityCreate : AppCompatActivity() {
+class CreateActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCreateBinding
     lateinit var create_title : EditText
     lateinit var create_priority : ChipGroup
